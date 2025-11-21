@@ -10,7 +10,7 @@ def count_columns(file_name: Path) -> None:
 
     with open(file_name, mode="r", encoding="utf-8") as my_file:
         for line in my_file:
-            
+
             # All lines must match the header of the file:
             if first_line:
                 first_line = False
@@ -32,4 +32,3 @@ def test_column_count() -> None:
     csv_realpath: Path      = Path(f"{cwd}/pycons/2025/resources.csv")
     print(f"Testing file: {csv_realpath}")
     count_columns(csv_realpath)
-
