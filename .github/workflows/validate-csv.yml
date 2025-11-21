@@ -34,4 +34,5 @@ jobs:
         
     - name: Run CSV validation tests
       run: |
+        source .venv/bin/activate
         pytest tests/test_csv.py -v
