@@ -42,3 +42,26 @@ This is a list of resources speakers can connect to their talk, such as location
 
 # Previous PyCons:
 If you'd like to submit data for a previous PyCon but the folder isn't there - create it 🙂
+
+
+# Contributing:
+You'll need to create a branch and Pull Request to have your changes included. If you're not familiar the steps are as follows:
+
+## Creating a PR:
+
+### 1. Create and switch to a new branch
+git checkout -b your-branch-name
+
+### 2. Make your changes (edit files, add features, etc.)
+
+### 3. Stage and commit your changes
+git add .
+git commit -m "Your descriptive commit message"
+
+### 4. Push the branch to GitHub
+git push origin your-branch-name
+
+### 5. Open a Pull Request on GitHub:
+    - Go follow the URL to GitHub.
+    - Click "Compare & pull request" for your newly pushed branch.
+    - Fill in the PR details and submit.
